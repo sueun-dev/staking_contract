@@ -3,7 +3,7 @@
 pragma solidity ^0.8.4;
 
 import "https://github.com/sueun-dev/staking_contract/blob/main/ERC20_staking";
-import "./ERC721_staking.sol";
+import "https://github.com/sueun-dev/staking_contract/blob/main/ERC721_staking.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 
 contract NFTStaking is Ownable, IERC721Receiver {
