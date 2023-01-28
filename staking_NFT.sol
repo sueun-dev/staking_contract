@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT LICENSE
-
+// Created By Sueun Cho
 pragma solidity ^0.8.4;
 
 import "https://github.com/sueun-dev/staking_contract/blob/main/ERC20_staking";
