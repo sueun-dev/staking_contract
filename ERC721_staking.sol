@@ -4,7 +4,7 @@ pragma solidity ^0.8.4;
 
 import "https://github.com/sueun-dev/ERC721A_GOMZ/blob/main/contracts/ERC721A.sol";
 import "https://github.com/sueun-dev/staking_contract/blob/main/ERC20_staking";
-import "./whitelist.sol";
+import "https://github.com/sueun-dev/staking_contract/blob/main/merkle_tree_white_list.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol";
 
 contract GOMZCUB_NFT is ERC721A, Ownable, ReentrancyGuard, Whitelist{
